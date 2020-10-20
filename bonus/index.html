@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gray-background">
+        <h1>Compra un biglietto</h1>
+        <form action="index.html" method="POST">
+            <h2>
+                Inserisci la lunghezza del percorso in km e la tua età per conoscere il prezzo del biglietto.
+            </h2>
+            <input id="kilo" type="text" placeholder="Lunghezza percorso (km)" required>
+            <p><span id="kilo-alert"></span></p>
+            <input id="eta" type="text" placeholder="Tua età" required>
+            <p><span id="eta-alert"></span></p>
+            
+            <button id="btn" type="submit" name="submit">Calcola</button>
+        </form>
+    </div>
+    <div id='prezzo'></div>
+    <script src="script.js"></script>
+</body>
+</html>

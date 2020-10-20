@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("train-hack-featured-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.gray-background, #prezzo {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.90), rgba(7, 43, 160, 0.7));
+    max-width: 500px;
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto 3rem auto;
+}
+
+form {
+    text-align: center;
+}
+
+form input, form button {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px;
+    padding: 0.3rem 0.4rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}

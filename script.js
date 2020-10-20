@@ -1,6 +1,6 @@
 
 /* Prevengo che lo script si attivi prima del completo caricamento della pagina NON FUNZIONA!!!*/
-window.onload = function paginaCaricata(){
+document.addEventListener("DOMContentLoaded", function() {
 
     /* Chiedo all'utente il numero dei Km da percorrere */
 
@@ -29,4 +29,4 @@ window.onload = function paginaCaricata(){
 
     /* Comunico il prezzo finale */
     window.alert('Il prezzo del tuo biglietto è di:\n' + prezzoFinale.toFixed(2) + '€');
-};
+});
