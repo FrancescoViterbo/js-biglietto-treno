@@ -12,11 +12,21 @@ body {
     min-height: 100vh;
 }
 
-.gray-background, #prezzo {
+.gray-background {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.90), rgba(7, 43, 160, 0.7));
     max-width: 500px;
     padding: 5rem;
     margin: 0 auto;
+}
+
+#prezzo {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#eta-alert {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 h1 {
